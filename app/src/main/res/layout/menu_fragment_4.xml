@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ligue180"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClickInitCall" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ligar para o 180 agora!"
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:onClick="onClickInitCall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A Central de Atendimento à Mulher funciona 24 horas por dia, de segunda à domingo, inclusive feriados. \n A ligação é gratuita e o atendimento é de âmbito nacional."
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:fontFamily="Open Sans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atendimento qualificado – A Central funciona com atendentes capacitadas em questões de gênero, nas políticas do Governo Federal para as mulheres, nas orientações sobre o enfrentamento à violência contra a mulher e, principalmente, na forma de receber a denúncia e acolher as mulheres. \n Utilizam um banco de dados com mais de 260 perguntas e respostas elaboradas com base nas informações disponíveis na Secretaria Especial de Políticas para Mulheres (SPM) e em todas as denúncias já recebidas por sua Ouvidoria. \n A capacitação das atendentes foi desenvolvida em parceria com o Instituto Patrícia Galvão, de São Paulo."
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:fontFamily="Open Sans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A criação da Central atende a uma antiga demanda dos movimentos feministas e de mulheres e de todos aqueles que atuam no contexto de mulheres em situação de violência. Além de encaminhar os casos para os serviços especializados, a Central fornecerá orientações e alternativas para que a mulher se proteja do agressor. \n Ela será informada sobre seus direitos legais, os tipos de estabelecimentos que poderá procurar, conforme o caso, dentre eles as delegacias de atendimento especializado à mulher, defensorias públicas, postos de saúde, instituto médico legal para casos de estupro, centros de referência, casas abrigo e outros mecanismos de promoção de defesa de direitos da mulher."
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:fontFamily="Open Sans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="As beneficiárias diretas desse serviço serão as mulheres, mas o enfrentamento à violência contra a mulher repercute positivamente sobre toda a sociedade. \n Com a Central de Atendimento, todas as mulheres poderão receber atenção adequada quando em situação de violência, sem nenhuma exposição, pois o sigilo é absoluto e a identificação será opcional. Mas não só as mulheres que podem acionar os serviços. \n Homens que queiram fazer denúncias de casos de violência contra a mulher serão bem acolhidos."
+                android:id="@+id/textView4"
+                android:gravity="center_horizontal"
+                android:fontFamily="Open Sans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A Central de Atendimento à Mulher é uma parceria da Secretaria Especial de Políticas para Mulheres (SPM) e as empresas Embratel, Eletronorte, Eletrobrás, Furnas e do Disque Denúncia do Rio de Janeiro."
+                android:id="@+id/textView5"
+                android:gravity="center_horizontal"
+                android:fontFamily="Open Sans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

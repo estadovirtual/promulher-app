@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.com.estadovirtual.promulher.Preferences">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/promulher_logo"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/promulher_observation"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:editable="false"
+            android:fontFamily="Open Sans"
+            android:textSize="17dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:text="Registrar"
+            android:id="@+id/button_with_id"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#4e4e4e"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="Open Sans" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:text="Usar sem identificação"
+            android:id="@+id/button_without_id"
+            android:layout_gravity="center_horizontal"
+            android:background="#4e4e4e"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="Open Sans" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pró Mulher</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_about">Sobre o App</string>
+    <string name="title_activity_tutorial">Informações Importantes</string>
+    <string name="title_activity_disguise">Frase do Dia</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="get_back_to_disguise">Tela de disfarce</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Reportar Agressão</item>
+        <item>Rede de Ajuda Pessoal</item>
+        <item>Meus Dados</item>
+        <item>Central de Atendimento (180)</item>
+        <item>Locais de Atendimento</item>
+        <item>Lei Maria da Penha</item>
+    </string-array>
+
+    <!-- HOME VALUES -->
+    <string name="action_1">Já fui violentada e não corro mais risco</string>
+    <string name="action_2">Já fui violentada e corro risco novamente</string>
+    <string name="action_3">Estou sendo ameaçada</string>
+    <string name="action_4">Estou na eminência de ser violentada</string>
+    <string name="action_5">Estou sendo violentada</string>
+    <string name="action_6">Acabei de ser violentada</string>
+
+    <string-array name="scholarity_options">
+        <item>Selecione um nível de escolaridade</item>
+        <item>Ensino Fundamental Incompleto</item>
+        <item>Ensino Fundamental</item>
+        <item>Ensino Médio Incompleto</item>
+        <item>Ensino Médio</item>
+        <item>Ensino Superior Incompleto</item>
+        <item>Ensino Superior</item>
+        <item>Pós-Graduado</item>
+        <item>Mestrado</item>
+        <item>Doutorado</item>
+        <item>Pós-Doutorado</item>
+    </string-array>
+    <string-array name="income_options">
+        <item>Selecione aproximadamente a renda pessoal</item>
+        <item>Até 200 Reais</item>
+        <item>Até 500 Reais</item>
+        <item>Até um salário mínimo</item>
+        <item>Até 100 Reais</item>
+        <item>Até 1500 Reais</item>
+        <item>Até 1900 Reais</item>
+        <item>Até 2500 Reais</item>
+        <item>Até 3000 Reais</item>
+        <item>Até 5000 Reais</item>
+        <item>Mais de 5000 Reais</item>
+    </string-array>
+
+    <string name="title_activity_about">Sobre o Aplicativo</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

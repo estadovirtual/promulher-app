@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.com.estadovirtual.promulher.Register">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/field_name"
+            android:layout_gravity="center_horizontal"
+            android:hint="Nome Completo"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/field_email"
+            android:layout_gravity="center_horizontal"
+            android:hint="E-mail"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/field_cep"
+            android:layout_gravity="center_horizontal"
+            android:hint="CEP (Somente números)"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_gravity="center_horizontal"
+            android:editable="false"
+            android:enabled="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/field_age"
+            android:layout_gravity="center_horizontal"
+            android:hint="Idade (Somente números)"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/field_childrens"
+            android:layout_gravity="center_horizontal"
+            android:hint="Número de Filhos"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/field_income"
+            android:layout_gravity="center_horizontal"
+            android:hint="Renda Mensal"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/field_scholarity"
+            android:layout_gravity="center_horizontal"
+            android:hint="Escolaridade"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estou ciente de que meus dados serão usados somente para estatísticas e que não serão divulgados sem autorização."
+            android:id="@+id/checkbox_accept_terms"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:text="Registrar"
+            android:id="@+id/button_register"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.estadovirtual.evponto.Fragment_1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="Registrar Entrada"
+            android:id="@+id/button_check_in"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="Registrar Saída"
+            android:id="@+id/button_check_out"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</FrameLayout>
